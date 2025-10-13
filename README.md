@@ -13,10 +13,10 @@ The goal is to identify patterns across demographics, clinical conditions, and l
 
 ## Tools Used
 
-- **Snowflake:** As the primary data source for structured data extraction
+- **Snowflake:** As the data storage and connection
 - **Power Query:** For data ingestion, cleaning, and transformation
 - **Power BI:** For building DAX measures & tables and developing interactive dashboards
-- **Git & GitHub:** For version control and repository hosting
+- **Git & GitHub:** For version control and project documentation
 
 ---
 
@@ -41,12 +41,11 @@ The goal is to identify patterns across demographics, clinical conditions, and l
 
 ## Data Cleaning & Transformation
 
-- Adjusted column data types to match expected values
+- Corrected column data types to ensure accuracy
 - Checked for nulls and errors
-- Added custom and conditional columns to group data for analysis
-- Replaced inconsistent values for clarity
-- Built DAX measures to calculate KPIs and key statistics
-- Developed DAX expressions to create tables
+- Added custom and conditional columns to group and categorize data for clearer analysis
+- Replaced certain values to improve data clarity and understanding
+- Created key metrics and tables using DAX expressions to power the visuals
 
 ---
 
@@ -54,26 +53,51 @@ The goal is to identify patterns across demographics, clinical conditions, and l
 
 The Power BI report is presented through **three main dashboards**, each designed to deliver an interactive and insightful exploration of the panic attack dataset:
 
-- **Overview Dashboard:** Provides a general overview with KPIs, demographic breakdown by gender and age, and population distribution by severity level and trigger
-- **Clinical Insights Dashboard:** Analyzes medical and psychological aspects with KPIs, distribution and severity level of symptoms and medical history, and treatment status of cases
-- **Lifestyle Impact Dashboard:** Focuses on lifestyle habits that may influence the occurrence and severity of panic attacks like sleep hours, caffeine and alcohol consumption, and exercise frequency
-- **Filters Panel:** Added to each page for interactive data exploration, and personalized insights
+### 1. Overview Dashboard
+This dashboard provides a high-level summary of the panic attack cases.
 
-**Dashboard Preview**  
+**Key Visuals & Metrics:**
+ - **KPI Cards:** Total Cases, Severe Cases, Treatment Gap, Most Common Trigger, and Average Panic Score
+ - **Cases by Trigger Reason:** Stress, Social Anxiety, Caffeine, Phobia, and PTSD are the primary known triggers
+ - **Cases by Age Group:** Shows the distribution of cases across Youth (18-24), Adults (25-35), Middle-aged (36-50), and Seniors (50+)
+ - **Case Distribution:** Visualizes the breakdown of cases by gender and severity level (Low, Moderate, Severe)
 
-Overview Dashboard:
+**Dashboard Preview:**
 
 ![Overview Dashboard Screenshot](powerbi/overview-dashboard.png)
 
-Clinical Insights Dashboard:
+### 2. Clinical Insights Dashboard
+This dashboard focuses on the clinical aspects of the panic attack cases, including symptoms and medical history.
+
+**Key Visuals & Metrics:**
+ - **KPI Cards:** Priority Cases, Multi Symptoms Cases, Average Heart Rate, Average Panic Duration, and Average Panic Frequency
+ - **Symptom Frequency:** Displays the most common symptoms, such as Sweating, Shortness of Breath, and Dizziness
+ - **Panic Symptoms by Severity:** A Sankey diagram showing the flow from medical history to symptom to severity level
+ - **Treatment Adoption:** Compares the adoption rates of Therapy vs. Medication
+ - **Cases by Medical History:** Breaks down cases based on pre-existing conditions like Anxiety, Depression, and PTSD
+
+**Dashboard Preview:**
 
 ![Clinical Insights Dashboard Screenshot](powerbi/clinical-insights-dashboard.png)
 
-Lifestyle Impact Dashboard:
+### 3. Lifestyle Impact Dashboard
+This dashboard explores the relationship between lifestyle factors and panic attack severity.
+
+**Key Visuals & Metrics:**
+ - **KPI Cards:** Highlights counts of individuals with high caffeine intake, low sleep, low exercise, high alcohol consumption, and smokers
+ - **Panic Severity by Sleep Hours:** Shows a correlation between average sleep hours and the severity of panic attacks
+ - **Panic Score by Alcohol Consumption:** Visualizes how the average panic score varies with alcohol intake
+ - **Caffeine Intake vs. Panic Score:** A scatter plot showing the relationship between caffeine consumption and panic scores, segmented by trigger
+ - **Panic Score by Exercise Frequency:** Illustrates how often individuals exercise correlates with their panic score
+
+**Dashboard Preview:**
 
 ![Lifestyle Impact Dashboard Screenshot](powerbi/lifestyle-impact-dashboard.png)
 
-Power BI file: [Panic Attack Analysis](powerbi) or [Download from Google Drive](https://drive.google.com/file/d/1FRow2m7r3SgTR59zlJtXMYJ6HnDsM3h1/view?usp=sharing)
+### 4. Filters Panel
+Added to each page for interactive data exploration, and personalized insights.
+
+*Power BI file:* [Panic Attack Analysis](powerbi) or [Download from Google Drive](https://drive.google.com/file/d/1FRow2m7r3SgTR59zlJtXMYJ6HnDsM3h1/view?usp=sharing)
 
 ---
 
