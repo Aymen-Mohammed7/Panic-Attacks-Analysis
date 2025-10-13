@@ -69,11 +69,11 @@ Clinical Insights Dashboard:
 
 ![Clinical Insights Dashboard Screenshot](powerbi/clinical-insights-dashboard.png)
 
-Lifestyle Impact Dashboard::
+Lifestyle Impact Dashboard:
 
 ![Lifestyle Impact Dashboard Screenshot](powerbi/lifestyle-impact-dashboard.png)
 
-Power BI file: ![Panic Attacks Analysis](powerbi) or [Download from Google Drive](https://drive.google.com/file/d/1FRow2m7r3SgTR59zlJtXMYJ6HnDsM3h1/view?usp=sharing)
+Power BI file: ![Panic Attack Analysis](powerbi) or [Download from Google Drive](https://drive.google.com/file/d/1FRow2m7r3SgTR59zlJtXMYJ6HnDsM3h1/view?usp=sharing)
 
 ---
 
