@@ -49,7 +49,7 @@ The goal is to identify patterns across demographics, clinical conditions, and l
 
 ---
 
-## Dashboards & Visualization
+## Dashboards & Visualizations
 
 The Power BI report is presented through **three main dashboards**, each designed to deliver an interactive and insightful exploration of the panic attack dataset:
 
